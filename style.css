@@ -1,11 +1,5 @@
-/***********************/
-/***********************/
-/************************/
-/* Mixin para crear cubo ( Caras siempre al frente ) */
-/************************/
-/***********************/
-/***********************/
-/**/
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap');
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -25,7 +19,11 @@
     background-image: linear-gradient(120deg, #f6afbf, #F498AD, #f07390);
     cursor: pointer;
   }
-  
+
+  h1 {
+    font-family: 'Marhey', cursive;
+  }
+
   .face {
     position: absolute;
   }
